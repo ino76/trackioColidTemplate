@@ -81,7 +81,7 @@ body {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Signika', sans-serif; */
     /* font-family: 'PT Sans', sans-serif; */
@@ -92,6 +92,9 @@ body {
     color: #515656;
 }
 
+strong {
+    color: rgb(36, 80, 187);
+}
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
@@ -330,7 +333,12 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area .logo h2 {
+    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Signika', sans-serif; */
+    /* font-family: 'PT Sans', sans-serif; */
+    /* font-family: 'Palanquin', sans-serif; */
+    color: rgb(211, 232, 255);
     margin-bottom: 0;
 }
 
