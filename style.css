@@ -33,6 +33,12 @@ CSS INDEX
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Signika');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Palanquin');
+
+
 /*-------------------
 2. Theme Default CSS
 --------------------*/
@@ -76,7 +82,11 @@ body {
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Signika', sans-serif; */
+    /* font-family: 'PT Sans', sans-serif; */
+    /* font-family: 'Palanquin', sans-serif; */
+    font-weight: 600;
     font-size: 15px;
     line-height: 1.8;
     color: #515656;
@@ -174,13 +184,13 @@ input:-webkit-autofill:focus {
 .sky-bg {
     background: #75cbe7;
     background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
+    background: linear-gradient(to bottom, #2a608e 0%, #84e3f9 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     color: #ffffff;
 }
 
 .gray-bg {
-    background-color: #f2fefe;
+    background-color: #f1f1f1;
 }
 
 /**
@@ -361,7 +371,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #053346cf;
+    background-color: #232f4acf;
 }
 
 
