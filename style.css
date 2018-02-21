@@ -353,7 +353,7 @@ input:-webkit-autofill:focus {
     /* font-family: 'Signika', sans-serif; */
     /* font-family: 'PT Sans', sans-serif; */
     /* font-family: 'Palanquin', sans-serif; */
-    color: rgb(211, 232, 255);
+    color: white;
     text-shadow: 0 0 9px #ffffff66;
     margin-bottom: 0;
 }
