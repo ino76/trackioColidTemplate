@@ -57,7 +57,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #000000;
+    color: #1f65a2;
 }
 
 img {
@@ -95,6 +95,16 @@ body {
 
 strong {
     text-shadow: 0 0 1px #8de5ff;
+}
+
+.gray-bg strong {
+    text-shadow: none;
+    font-size: 1.15em;
+    color: #1f65a2;
+}
+
+.hide {
+    display: none;
 }
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
@@ -225,7 +235,7 @@ input:-webkit-autofill:focus {
     margin-top: 5rem;
     background-color: #fafafa;
     box-shadow: 0 0 20px #0000001f;
-    color: #6b6b6b;
+    color: #adadad;
 }
 
 .button.glyphicon:hover {
@@ -755,7 +765,7 @@ input:-webkit-autofill:focus {
     top: 20px;
     width: 36px;
     height: 36px;
-    background: #2f60c3;
+    background: #3b6d98;
     border-radius: 50%;
     -webkit-transition: 0.3s;
     transition: 0.3s;
