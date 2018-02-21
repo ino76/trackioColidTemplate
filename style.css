@@ -73,6 +73,7 @@ h5,
 h6 {
     margin: 0 0 10px;
     font-weight: 600;
+    text-shadow: 0 0 8px #ffffff33;
 }
 
 html,
@@ -93,7 +94,7 @@ body {
 }
 
 strong {
-    color: #3cfff8;
+    text-shadow: 0 0 1px #8de5ff;
 }
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
@@ -205,22 +206,36 @@ input:-webkit-autofill:focus {
     padding: 8px 30px;
     border-radius: 50px;
     color: #ffffff;
-    background-color: #2f60c3;
+    background-color: #3173ab;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     border: none;
     -webkit-box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 5px 20px -5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .button.white,
 .button:hover {
     background-color: #ffffff;
-    color: #138fc2;
+    color: #3173ab;
+}
+
+.button.glyphicon {
+    margin-top: 5rem;
+    background-color: #fafafa;
+    box-shadow: 0 0 20px #0000001f;
+    color: #6b6b6b;
+}
+
+.button.glyphicon:hover {
+    background-color: #fff;
+    box-shadow: 0 0 20px #0000002f;
+    color: #07141f;
 }
 
 .button.white:hover {
-    background-color: #2f60c3;
+    background-color: #3173ab;
     color: #ffffff;
 }
 
@@ -339,6 +354,7 @@ input:-webkit-autofill:focus {
     /* font-family: 'PT Sans', sans-serif; */
     /* font-family: 'Palanquin', sans-serif; */
     color: rgb(211, 232, 255);
+    text-shadow: 0 0 9px #ffffff66;
     margin-bottom: 0;
 }
 
@@ -517,7 +533,11 @@ input:-webkit-autofill:focus {
 .caption-slider .caption-photo {
     display: inline-block;
     -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1)
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.caption-photo img {
+    border-radius: 20px 0 20px 0;
 }
 
 .caption-slider .caption-photo.two {
