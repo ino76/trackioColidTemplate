@@ -73,7 +73,7 @@ h5,
 h6 {
     margin: 0 0 10px;
     font-weight: 600;
-    text-shadow: 0 0 8px #ffffff33;
+    text-shadow: 0 0 15px #ffffff44;
 }
 
 html,
@@ -87,14 +87,14 @@ body {
     /* font-family: 'Signika', sans-serif; */
     /* font-family: 'PT Sans', sans-serif; */
     /* font-family: 'Palanquin', sans-serif; */
-    font-weight: 600;
-    font-size: 15px;
+    /* font-weight: 600; */
+    font-size: 1.5rem;
     line-height: 1.8;
     color: #515656;
 }
 
 strong {
-    text-shadow: 0 0 1px #8de5ff;
+    text-shadow: 0 0 8px #8de5ff88;
 }
 
 .gray-bg strong {
