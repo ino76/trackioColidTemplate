@@ -198,7 +198,7 @@ input:-webkit-autofill:focus {
 .sky-bg {
     background: #75cbe7;
     background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #2a608e 0%, #84e3f9 100%);
+    background: linear-gradient(to bottom, #073369 0%, #88e3ff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     color: #ffffff;
 }
