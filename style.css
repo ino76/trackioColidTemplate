@@ -39,9 +39,10 @@ CSS INDEX
 @import url('https://fonts.googleapis.com/css?family=Palanquin');
 
 
-.row {
-    margin: 0 !important;
+#caption_slide .row {
+    margin: 0;
 }
+
 
 
 /*-------------------
