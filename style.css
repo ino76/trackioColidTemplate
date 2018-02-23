@@ -103,6 +103,27 @@ strong {
     text-shadow: 0 0 8px #8de5ff88;
 }
 
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td, table th {
+    padding: 10px;
+}
+
+table thead {
+    background: rgb(70, 80, 85);
+    color: white;
+}
+
+thead tr {
+    border-radius:  44px;
+}
+
+
+
 .gray-bg strong {
     text-shadow: none;
     font-size: 1.15em;
