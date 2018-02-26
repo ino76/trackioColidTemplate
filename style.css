@@ -52,8 +52,8 @@ CSS INDEX
 a {
     text-decoration: none;
     outline: none;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
     color: #333333;
 }
 
@@ -63,7 +63,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #349ccc;
+    color: #1aacf0;
 }
 
 img {
@@ -82,6 +82,11 @@ h6 {
     text-shadow: 0 0 15px #ffffff44;
 }
 
+h3 {
+    font-size: 1.4em;
+}
+
+
 html,
 body {
     height: 100%
@@ -99,8 +104,14 @@ body {
     color: #515656;
 }
 
+
 strong {
     text-shadow: 0 0 8px #8de5ff88;
+}
+
+
+.price-area strong {
+    text-shadow: none;
 }
 
 
@@ -145,10 +156,40 @@ input:-webkit-autofill:focus {
 /**
 *Helper-Classes
 **/
-.row-center {
-    display: flex;
-    justify-content: center;
+
+.headerImage {
+    transition: all 4s;
+    box-shadow: 0 0 66px rgb(157, 194, 201);
+    border-radius: 8px;
+    border: 2px solid rgb(55, 112, 165);
+    transform: perspective(400px) rotateY(-25deg);
 }
+
+.headerImage:hover {
+    transition: all 2s;
+    transform: perspective(400px) rotateY(-3deg) rotateX(5deg);
+}
+
+
+.teamCard {
+    margin: 0 8px;
+}
+
+
+@media (min-width: 768px) {
+    .row-center {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-xs-6, .col-xs-8 {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
 
 .full-height {
     width: 100%;
@@ -541,6 +582,8 @@ input:-webkit-autofill:focus {
     cursor: pointer;
     position: relative;
     list-style: none;
+    width: 25%;
+    text-align: center;
 }
 
 .caption-slider .carousel-indicators li:before {
