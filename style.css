@@ -145,6 +145,10 @@ input:-webkit-autofill:focus {
 /**
 *Helper-Classes
 **/
+.row-center {
+    display: flex;
+    justify-content: center;
+}
 
 .full-height {
     width: 100%;
