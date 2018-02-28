@@ -54,7 +54,13 @@ a {
     outline: none;
     -webkit-transition: 0.2s;
     transition: 0.2s;
-    color: #333333;
+    color: #0060f1;
+}
+
+
+hr {
+    height: 1px;
+    background: rgb(252, 252, 252);
 }
 
 input:focus,
@@ -63,7 +69,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #1aacf0;
+    color: #2c2c2c;
 }
 
 img {
@@ -78,7 +84,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 10px;
-    font-weight: 600;
+    /* font-weight: 600; */
     text-shadow: 0 0 15px #ffffff5b;
 }
 
@@ -142,6 +148,15 @@ thead tr {
 }
 
 
+section:focus {
+    outline: none;
+}
+
+
+ol li {
+    font-weight: 900;
+    font-size: 1.1em;
+}
 
 .gray-bg strong {
     text-shadow: none;
