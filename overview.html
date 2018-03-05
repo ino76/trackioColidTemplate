@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title>Trackio - visualization</title>
+    <title>Trackio - overview</title>
     <!-- Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
@@ -58,10 +58,9 @@
             <!--Logo/-->
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#1">MOD</a></li>
-                    <li><a href="#Heatmap">Heatmap</a></li>
-                    <li><a href="#Visits">Visits</a></li>
-                    <li><a href="#Sections">Sections</a></li>
+                    <li class="active"><a href="#1">OVERVIEW MODUL</a></li>
+                    <li><a href="#Stores">Stores</a></li>
+                    <li><a href="#Sellers">Sellers</a></li>
                     <li><a href="index.html#usecases">BACK <i class="glyphicon glyphicon-share-alt"></i></a></li>
                 </ul>
             </nav>
@@ -80,7 +79,7 @@
                 </div>
                 <div class="col-lg-8 col-sm-12 text-center">
                     <div class="page-title">
-                        <h2>#1: VISUALIZATION MODUL</h2>
+                        <h2>#1: OVERVIEW MODUL</h2>
                         <p>
                             When we put Movement out in ebook format, we decided to go with a low price, $9.99, so people could
                             get a second copy inexpensively — hardcover or paperback on a shelf for easy review, and a digital
@@ -96,79 +95,98 @@
     <!-- #1 /-->
 
 
-    <!-- Heatmap -->
-    <section class="white-bg section-padding" id="Heatmap">
+    <!-- Stores -->
+    <section class="white-bg section-padding" id="Stores">
         <div class="container">
             <div class="row v-center">
                 <div class="col-md-12 text-center">
                     <div class="page-title">
-                        <h2>Heatmap</h2>
+                        <h2>Stores</h2>
                         <p>
-                            Pohyb po prodejně je zachycen v Heatmapě, která je zobrazena nad zjednodušenou mapou konkrétní prodejny.
+                            Tabulka Stores umožňuje porovnávat a řadit – od nejhorších po nejlepší a naopak – více obchodů
+                            podle následujících parametrů:
                         </p>
-                        <p>
-                            Z vizualizace lze letmým pohledem zjistit, kde nejčastěji se návštěvníci prodejny pohybují a podle toho
-                            např. následně přesouvat regály, umisťovat zboží v akci nebo alokovat zaměstnance.
-                        </p>
+                        <ol>
+                            <li>počet návštěv (Visits)</li>
+                            <li>počet kolemjdoucích (People Passing by)</li>
+                            <li>procento z kolemjdoucích, kteří navštívili obchod (Conversion to Visitors)</li>
+                            <li>procento z návštěvníků, kteří se do obchodu navrátili (Returning Visitors Percentage)</li>
+                            <li>počet návštěvníků, kteří se vrátili (Returning Visitors)</li>
+                            <li>počet transakcí (Number of Transactions)</li>
+                            <li>procento návštěvníků, kteří si něco koupili (Visitor to Transaction Conversion)</li>
+                            <li>celková tržba obchodu (Revenue)</li>
+                            <li>průměrná tržba za návštěvníka (Revenue per Visitor)</li>
+                            <li>průměrná tržba za návštěvníka (Average Revenue per Transaction)</li>
+                            <li>průměrná doba, kterou návštěvník strávil v obchodě (Visit Duration)</li>
+                        </ol>
                     </div>
                 </div>
-            
             </div>
+
             <div class="row">
-                <div class="col-md-12 text-center"><img src="images/moduleGraphs/heatmap.png" alt="visits"></div>
+                <div class="col-md-12 text-center"><img src="images/moduleGraphs/stores.png" alt="visits"></div>
+            </div>
+
+            <div class="row v-center">
+                <div class="col-md-12 text-center">
+                    <div class="page-title">
+                        <h3>
+                            Pro rychlý přehled je totéž porovnáno vůči poklesu a růstu v minulém týdnu, a zachyceno jako
+                            procentuální změna a porovnání s daty staršími měsíc.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center"><img src="images/moduleGraphs/lastsevendays.png" alt="visits"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center"><img src="images/moduleGraphs/lastmonth.png" alt="visits"></div>
             </div>
         </div>
     </section>
-    <!-- Heatmap -->
+    <!-- Stores -->
 
     <hr>
 
-    <!-- Visits -->
-    <section class="white-bg section-padding" id="Visits">
+    <!-- Sellers -->
+    <section class="white-bg section-padding" id="Sellers">
         <div class="container">
             <div class="row v-center">
                 <div class="col-md-12 text-center">
                     <div class="page-title">
-                        <h2>Visits</h2>
+                        <h2>Sellers</h2>
                         <p>
-                            Mapa Visits umožňuje rychlým pohledem zjistit, kudy po prodejně se pohyboval konkretní jednotlivec,
-                            v jakém čase a po jakou dobu.
+                                tabulka Sellers umožňuje porovnávat a řadit – od nejhorších po nejlepší a naopak – úspěchy
+                                jednotlivých obchodníků v předem definovaných oblastech.
+                                u každého obchodníka lze odlišit celkovou úspěšnost od dílčích úspěchů na jednotlivých
+                                prodejnách, což se hodí ve chvíli, kdy obchodník fluktuje mezi vícero pobočkami a chceme
+                                např. zjistit, do jaké míry jeho úspěchy závisí na dané lokalitě.
                         </p>
+                        <br>
+                        <p>Sledované jsou následující oblasti:</p>
+                        <ul>
+                            <li>procento lidí, kteří navštívili ve zvoleném časovém období prodejnu v době obchodníkovi služby a bylo jim něco prodáno (Conversion of Visitors to Transaction)</li>
+                            <li>počet obchodníkem uzavřených transakcí (Total Number of Transactions)</li>
+                            <li>průměrné denní tržby obchodníka (Average Revenue per Day)</li>
+                            <li>průměrná tržba za návštěvníka prodejny v obchodníkově přítomnosti (Revenue per Visitor)</li>
+                            <li>celková tržba obchodníka za dané období (Total Revenue)</li>
+                            <li>průměrný počet obchodníkových transakcí za den (Average Number of Transactions per Day)</li>
+                            <li>kolik odpracoval obchodník dní v daném období (Number of Working Days)</li>
+                            <li>kolik lidí navštívilo obchod ve zvoleném časové období v průběhu dní, kdy obchodník pracoval (Number of Visits During Working Days)</li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-12 text-center"><img src="images/moduleGraphs/visitsmapa.png" alt="visits"></div>
-            </div>
-
-        </div>
-    </section>
-    <!-- Visits -->
-
-    <hr>
-    
-    <!-- Sections -->
-    <section class="white-bg section-padding" id="Sections">
-        <div class="container">
-
-            <div class="row v-center">
-                <div class="col-md-12 text-center">
-                    <div class="page-title">
-                        <h2>Sections</h2>
-                        <p>
-                            Mapa Sections poskytuje informace o jednotlivých částech obchodu.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row">
-                    <div class="col-md-12 text-center"><img src="images/moduleGraphs/sections.png" alt="visits"></div>
+            <div id="row">
+                    <div class="col-md-12 text-center"><img src="images/moduleGraphs/sellers.png" alt="visits"></div>
             </div>
         </div>
     </section>
-    <!-- Sections -->
+    <!-- Sellers -->
 
 
 
