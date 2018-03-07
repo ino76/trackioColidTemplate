@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- Main-Stylesheets -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -165,7 +165,7 @@
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="page-title">
                         <h2>Our clients</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                        <p>Companies that use our solution:</p>
                     </div>
                 </div>
             </div>
@@ -269,15 +269,13 @@
 
 
 
-
-
     <!-- PRICING -->
     <section class="price-area overlay section-padding" id="price-page">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="page-title">
-                        <h2>And how much does it cost?</h2>
+                        <h2>How much does it cost?</h2>
                         <p>Thanks to our custom assembled hardware, we provide accurate
                             data at very low cost.
                         </p>
@@ -462,7 +460,7 @@
                         </address>
                     </div>
                     <div class="col-xs-12 col-md-8">
-                        <form action="process.php" id="contact-form" method="post" class="contact-form">
+                        <!-- <form action="process.php" id="contact-form" method="post" class="contact-form">
                             <div class="form-double">
                                 <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
                                 <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
@@ -472,6 +470,29 @@
                             <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
 
                             <button type="sibmit" class="button">Submit</button>
+                        </form> -->
+
+                        <form role="form" id="contactForm" data-toggle="validator" class="shake">
+                            <div class="row">
+                                <div class="form-group col-sm-6">
+                                    <label for="name" class="h4">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" required data-error="NEW ERROR MESSAGE">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label for="email" class="h4">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="h4 ">Message</label>
+                                <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
                         </form>
                     </div>
                 </div>
@@ -495,7 +516,7 @@
             <div class="container">
                     <div class="row">
                             <div class="col-xs-12 text-center">
-                                <p>If you need more information you can check out our <a href="trackio.pdf">slideshow</a>.</p>
+                                <p>If you need more information you can check out our <a href="./docs/trackio.pdf">slideshow</a>.</p>
                             </div>
                         </div>
                 <div class="row">
@@ -513,6 +534,7 @@
 
     <!--Vendor-JS-->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- <script  type="text/javascript" src="js/jquery-1.11.2.min.js"></script> -->
     <script src="js/vendor/bootstrap.min.js"></script>
     <!--Plugin-JS-->
     <script src="js/owl.carousel.min.js"></script>
@@ -523,6 +545,9 @@
     <script src="js/wow.min.js"></script>
     <!--Main-active-JS-->
     <script src="js/main.js"></script>
+    <!-- contact form scripts -->
+    <script type="text/javascript" src="js/validator.min.js"></script>
+    <script type="text/javascript" src="js/form-scripts.js"></script>
     
 </body>
 </html>
