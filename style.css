@@ -94,12 +94,6 @@ h3 {
     font-weight: bold;
 }
 
-@media (max-width: 767px) {
-    h3 {
-        font-size: 0.8em;
-    }
-    
-}
 
 html,
 body {
@@ -186,11 +180,20 @@ input:-webkit-autofill:focus {
 *Helper-Classes
 **/
 
+.greyNumber {
+    font-family: 'Palanquin', sans-serif;
+    color: rgb(238, 238, 238);
+    font-size: 6rem;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
 .headerImage {
     transition: all 2.5s;
-    box-shadow: 0 0 66px rgb(157, 194, 201);
+    box-shadow: 0 0 66px #7adcf0;
     border-radius: 8px;
-    border: 2px solid rgb(55, 112, 165);
+    border: 3px solid rgb(0, 43, 84);
     transform: perspective(400px) rotateY(-25deg);
 }
 
@@ -768,9 +771,8 @@ input:-webkit-autofill:focus {
 }
 
 .testimonial .testimonial-photo {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     display: inline-block;
-    margin-right: 20px;
     border-radius: 50%;
     -webkit-box-shadow: 5px 10px 30px -10px rgba(255, 255, 255, 0.5);
     box-shadow: 5px 10px 30px -10px rgba(255, 255, 255, 0.5);
@@ -810,7 +812,8 @@ input:-webkit-autofill:focus {
 }
 
 .price-table {
-    padding: 50px 40px;
+    font-weight: bold;
+    padding: 50px 40px 40px 40px;
     border-radius: 2px;
     text-align: center;
     background-color: #ffffff;
@@ -820,7 +823,7 @@ input:-webkit-autofill:focus {
 }
 
 .price-table.active {
-    padding: 70px 40px;
+    padding: 70px 40px 40px 40px;
     margin-top: 0
 }
 
