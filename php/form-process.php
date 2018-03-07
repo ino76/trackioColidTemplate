@@ -25,7 +25,7 @@ if (empty($_POST["message"])) {
 
 
 $EmailTo = "daniel8cech@gmail.com";
-$Subject = "New Message Received";
+$Subject = "Message from Trackio form.";
 
 // prepare email body text
 $Body = "";
