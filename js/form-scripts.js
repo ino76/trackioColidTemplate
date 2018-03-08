@@ -46,7 +46,7 @@ function formError(){
 function submitMSG(valid, msg){
     if(valid){
         var msgClasses = "h3 text-center fadeInUp animated text-success";
-        $("#contactForm").addClass('zoomOutDown animated');
+        $("#contactForm").addClass('zoomOutRight animated');
     } else {
         var msgClasses = "h3 text-center text-danger";
     }
