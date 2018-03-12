@@ -224,6 +224,12 @@ textarea {
 **/
 
 
+.imgHeader {
+    margin-top: 6em;
+    text-align: center;
+}
+
+
 .greyNumber {
     font-family: 'Palanquin', sans-serif;
     color: rgb(238, 238, 238);
@@ -496,6 +502,8 @@ textarea {
 
 
 
+
+ 
 
 .mainmenu-area .logo {
     text-transform: uppercase;

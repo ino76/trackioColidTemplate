@@ -44,8 +44,6 @@
 
 
 
-
-
     <!--Mainmenu-area-->
     <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
         <div class="container">
@@ -64,10 +62,10 @@
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#home-page">About</a></li>
-                    <li><a href="#usecases">Usecases</a></li>
+                    <li><a href="#usecases">Use cases</a></li>
                     <li><a href="#price-page">Pricing</a></li>
                     <li><a href="#how">How does it work?</a></li>
-                    <li><a href="#References">References</a></li>
+                    <li id="refe"><a href="#References">References</a></li>
                     <li><a href="#Team">Team</a></li>
                     <li><a href="#contact-page">Contact</a></li>
                 </ul>
@@ -77,7 +75,29 @@
     <!--Mainmenu-area/-->
 
 
+    <script>
+        let how = document.querySelector('[href="#how"]')
+        let ref = document.querySelector('[href="#References"]')
 
+        window.addEventListener('resize', function(e){
+            changeMenu()
+        });
+
+        function changeMenu() {
+            if(window.innerWidth < 999 && window.innerWidth > 767) {
+                how.textContent = "How?"
+                ref.classList.add('hide')
+            } else if (window.innerWidth <= 767) {
+                how.textContent = "How does it work?"
+                ref.classList.remove('hide')
+            } else {
+                how.textContent = "How does it work?"
+                ref.classList.remove('hide')
+            }
+        }
+
+        changeMenu()
+    </script>
 
 
 
@@ -115,7 +135,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
                     <div class="page-title">
-                        <h2>Business cases</h2>
+                        <h2>Use cases</h2>
                         <p></p>
                     </div>
                 </div>
@@ -448,7 +468,7 @@
                                     <img src="images/phone-arrow.png" alt="">
                                 </div>
                                 <p><strong>Telephone: </strong>
-                                    <a href="callto:8801812726495">+420 739 384 843</a>
+                                    <a href="callto:8801812726495">+421 948 470 662</a>
                                 </p>
                             </div>
                             <div class="side-icon-box">
@@ -456,7 +476,7 @@
                                     <img src="images/mail-arrow.png" alt="">
                                 </div>
                                 <p><strong>E-mail: </strong>
-                                    <a href="mailto:youremail@example.com">info@eprovement.com</a>
+                                    <a href="mailto:youremail@example.com">filip.hajek@eprovement.com</a>
                                 </p>
                             </div>
                         </address>

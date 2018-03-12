@@ -38,7 +38,7 @@ function formSuccess(){
 }
 
 function formError(){
-    $("#contactForm").removeClass().addClass('hinge animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+    $("#contactForm").removeClass().addClass('pulse animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
         $(this).removeClass();
     });
 }
