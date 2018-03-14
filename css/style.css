@@ -154,7 +154,7 @@ section:focus {
 
 ol li {
     font-weight: 900;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
 }
 
 .gray-bg strong {
