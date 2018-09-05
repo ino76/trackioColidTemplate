@@ -54,7 +54,7 @@ a {
     outline: none;
     -webkit-transition: 0.2s;
     transition: 0.2s;
-    color: #474747;
+    color: #3c6096;
 }
 
 
@@ -68,7 +68,7 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #0060f1;
+    color: #00aeff;
 }
 
 img {
